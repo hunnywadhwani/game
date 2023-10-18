@@ -1,0 +1,135 @@
+{
+  "date": "2023-09-18T16:04:37.734Z",
+  "game": {
+    "file": {
+      "name": "Little Master Cricket",
+      "path": "assets/TopSpinner_sdk.swf",
+      "size": 271822
+    },
+    "runtime": {
+      "swfVersion": 41,
+      "fpVersion": "FP30",
+      "frameCount": 1,
+      "frameRate": 30,
+      "compression": 0,
+      "avm": "AVM2"
+    }
+  },
+  "device": {
+    "agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Mobile Safari/537.36",
+    "viewport": {
+      "width": 760,
+      "height": 360,
+      "dpi": 2
+    },
+    "store": {},
+    "memory": {}
+  },
+  "context": {
+    "version": 2,
+    "params": {
+      "MAX_TEXTURE_SIZE": 4096,
+      "MAX_VIEWPORT_DIMS": {
+        "0": 16384,
+        "1": 16384
+      },
+      "MAX_TEXTURE_IMAGE_UNITS": 16,
+      "MAX_RENDERBUFFER_SIZE": 16384,
+      "MAX_ELEMENTS_INDICES": 2147483647,
+      "MAX_DRAW_BUFFERS": 8,
+      "MAX_COLOR_ATTACHMENTS": 8
+    },
+    "vendor": "Google Inc. (Qualcomm)",
+    "renderer": "ANGLE (Qualcomm, Adreno (TM) 506, OpenGL ES 3.2)"
+  },
+  "config": {
+    "title": "Little Master Cricket",
+    "filename": "TopSpinner_sdk",
+    "pokiSDK": true,
+    "debugPoki": false,
+    "showFPS": false,
+    "debug": false,
+    "splash": "assets/todo.jpg",
+    "start": null,
+    "width": 720,
+    "height": 480,
+    "x": 0,
+    "y": 0,
+    "w": "100%",
+    "h": "100%",
+    "stageScaleMode": null,
+    "stageAlign": null,
+    "progressParserWeigth": 1,
+    "progress": {
+      "direction": "lr",
+      "back": "#e1dccc",
+      "line": "#2b446b",
+      "rect": [
+        0.25,
+        0.65,
+        0.5,
+        0.01
+      ]
+    },
+    "box2dVersion": "none",
+    "skipFramesOfScene": null,
+    "buttonPokiSDKActions": null,
+    "retryButtonIDS": null,
+    "retryButtonAction": null,
+    "actionOnStop": null,
+    "actionWhenRetryButtonEncountered": null,
+    "binary": [
+      {
+        "name": "fonts.swf",
+        "path": "assets/fonts.swf",
+        "size": 30506
+      },
+      {
+        "name": "TopSpinner_sdk",
+        "path": "assets/TopSpinner_sdk.swf",
+        "size": 145539,
+        "resourceType": "GAME"
+      }
+    ],
+    "runtime": "js/BennettFoddy.js",
+    "files": [],
+    "box2DCustom": {
+      "nape": {
+        "callbacks": {},
+        "constraint": {},
+        "dynamics": {},
+        "geom": {},
+        "phys": {},
+        "shape": {},
+        "space": {},
+        "util": {}
+      }
+    }
+  },
+  "logs": [
+    "[DEBUG]: Poki-Player - 0.0.12",
+    "[DEBUG]: Bennett Foddy - 0.0.14",
+    "[DEBUG]: [Away Symbols] Start",
+    "[DEBUG]: B2D Version -  custom",
+    "[DEBUG]: [Away Symbols] Start",
+    "[DEBUG]: [Away Symbols] Decoded (100/111), 90",
+    "[WARN]: PartialImplementationError playerglobals/text/Textfield.set embedFonts",
+    "[LOG]: font style not found return different bold",
+    "[LOG]: font style not found return different bold",
+    "[LOG]: font style not found return different bold",
+    "[LOG]: font style not found return different bold",
+    "[LOG]: font style not found return different bold",
+    "[LOG]: font style not found return different bold",
+    "[LOG]: font style not found return different bold",
+    "[LOG]: font style not found return different bold",
+    "[EXEPTION]: Uncaught ArgumentError: Error #2025: The supplied DisplayObject must be a child of the caller.",
+    "[LOG]: [AVMCrashReporter] Generate report..."
+  ],
+  "crash": {
+    "error": "Uncaught ArgumentError: Error #2025: The supplied DisplayObject must be a child of the caller.",
+    "line": 49,
+    "url": "blob:https://dea6d1d1-5ef8-4bff-a9d2-111c72cb276d.poki-gdn.com/6180d007-971b-4001-8836-5a555d9d4196",
+    "source": null
+  },
+  "snap": null
+}
